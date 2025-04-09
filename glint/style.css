@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+body{
+    background: rgba(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.first-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    margin: 0 5%;
+}
+.container{
+    background: #2E3D44;
+    height: 40px;
+}
+.first-heading .chat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vh;
+}
+.first-heading .chat .fox-news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+}
+.first-heading .sidebar .list .list-item{
+    border-left: 1px solid rgba(240, 240, 240, 0.733);
+    height: 40px;
+    width: fit-content;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-heading .chat .fox-news .wrapper,
+ .first-heading .sidebar .list .contact{
+    background-color: rgb(28, 183, 28);
+    height: 40px;
+    width: fit-content;
+    padding: 0 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.first-heading .sidebar .list .contact{
+    border-right: 1px solid rgba(240, 240, 240, 0.733);
+    font-size: 0.8rem;
+}
+.first-heading .chat .arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.first-heading .chat .bx-left-arrow-alt:hover,
+.first-heading .chat .bx-right-arrow-alt:hover{
+    color: rgb(28, 183, 28);;
+}
+.first-heading .chat .arrows .bx-left-arrow-alt{
+    border-right: 0.5px solid white;
+}
+.first-heading .chat .arrows .bx-right-arrow-alt{
+    border-left: 0.5px solid white;
+
+}
+.first-heading .sidebar .list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+}
+
+/*about glint*/
+.sticky-page{
+    background-color: black;
+    color: rgba(236, 226, 226, 0.884);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 20vh;
+    width: 100%;
+}
+.sticky{
+    display: flex;
+    margin: 0 5%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.sticky .menu .menu-menu .menu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.sticky .menu .menu-menu .menu-list .menu-list-item:hover{
+    border-bottom: 2px solid green;
+}
+.sticky .search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.sticky .search .search-bar{
+    background-color: black;
+    outline: none;
+    color: white;
+    border: none;
+}
+.sticky .search .bx-search{
+    font-size: 1.3rem;
+}
+.sticky .search .bxs-grid{
+    font-size: 1.8rem;
+    color: lightgreen;
+}
+/*about glint*/
+.user{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    background-color: rgba(0, 0, 0, 0.861);
+}
+.big-text h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+span{
+    color:rgba(0, 255, 0, 0.555);
+}
+.big-text button {
+    background-color:rgb(31, 159, 31);
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.big-text button:hover{
+    background-color: black;
+    border: 1px solid green;
+}
+.big-text button a:hover{
+    color: green;
+}
+.big-text p{
+    margin: 40px 0;
+}
+.big-text .user-para{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0 15px;
+    border-left: 3px solid rgba(62, 226, 62, 0.39);
+}
+.big-text button .icon{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6px;
+    border-radius: 15%;
+}
+
+/*user-2*/
+.user-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0 5%;
+    gap: 5vw;
+    padding-top: 80px;
+    font-size: 0.9rem;
+}
+
+/*experience*/
+.experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 5%;
+    gap: 50px;
+    margin-top: 100px;
+}
+.experience .experience-skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.experience .experience-skill h1{
+    margin-top: 5px;
+}
+.experience .experience-skill .lorem-text{
+    border-left: 3px solid green;
+}
+.experience .experience-skill .lorem-text p{
+    padding: 10px 0;
+    padding-left: 20px;
+}
+.work-experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.work-experience .ui-designer:hover{
+    background-color: rgba(35, 33, 33, 0.801);
+    transform: translateY(-5px);
+    transition: 0.4s ease;
+}
+.work-experience .ui-designer .transform, .work-experience .ui-designer h3{
+    text-transform: uppercase;
+    padding: 15px 15px;
+    font-size: 0.9rem;
+}
+.work-experience .ui-designer p{
+    font-size: 0.8rem;
+    padding: 15px 15px;
+}
+
+
+/*design*/
+.wrapped{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5%;
+    margin-top: 50px;
+}
+.design .des{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.design .design1{
+    background: linear-gradient( -165deg, green 60%, white 40%);
+}
+.design1_1, .design2_1, .design3_1, .design4_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    background-color: black;
+    font-size: 2rem;
+    width: 85%;
+    height: 85%;
+    border-radius: 50%;
+}
+.design .design2{
+    background: linear-gradient( -165deg, green 70%, white 30%);
+}
+.design .design3{
+    background: linear-gradient( -165deg, green 30%, white 70%);
+}
+.design .design4{
+    background: linear-gradient( -165deg, green 90%, white 10%);
+}
+
+/*services*/
+.services{
+    margin-top: 50px;
+}
+.services-skill{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 20px;
+    margin: 0 5%;
+
+}
+.services .services-skill h1{
+    margin-top: 5px;
+}
+.services .services-skill .lorem-text{
+    border-left: 3px solid green;
+}
+.services .services-skill .lorem-text p{
+    padding: 10px 0;
+    padding-left: 20px;
+}
+
+/*division*/
+.division{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 5%;
+    gap: 15px;
+}
+.design_principal, .style-comp{
+    text-align: center;
+    background-color: rgba(35, 33, 33, 0.801);
+}
+.design_principal:hover, .style-comp:hover{
+    background-color: rgb(31, 159, 31);
+    transition: 0.4s ease;
+}
+.unique{
+    text-align: center;
+    background-color: rgb(31, 159, 31);
+}
+.design_principal h3, .unique h3, .style-comp h3{
+    margin: 10px;
+    padding: 15px;
+}
+.design_principal p, .unique p, .style-comp p{
+    margin-top: -10px;
+    padding: 15px;
+}
